@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap");
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.bg-mission {
+  width: 100% !important;
+  background-image: url("assets/bg1.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg-mission-2 {
+  width: 100% !important;
+  background-position: center center;
+  background-image: url("assets/bg2.png");
+}
+
+.bg2-mission {
+  width: 100% !important;
+  background-image: url("assets/bg2m.png");
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.bg2-mission-2 {
+  width: 100% !important;
+  background-image: url("assets/bg2.png");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg3-mission {
+  width: 100% !important;
+  background-image: url("assets/qrbg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 100%;
+}
+
+.bg3-mission2 {
+  width: 100% !important;
+  background-image: url("assets/qrbg.png");
+  background-repeat: no-repeat;
+  background-position: top center;
+  background-size: 100% 80%;
+}
+
+.bgqr {
+  width: 100% !important;
+  background-image: url("assets/bgqr.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.bg-notab {
+  width: 100%;
+  background-image: url("assets/bg-notab.png");
+  background-position: center;
+  background-size: 100% 100%;
+}
+
+.bgend {
+  width: 100%;
+  background-image: url("assets/end.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
+
+.formpng {
+  width: 100%;
+  background-image: url("assets/form.png");
+  background-position: 100%;
+  background-repeat: no-repeat;
+}
